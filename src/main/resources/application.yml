@@ -1,0 +1,25 @@
+server:
+  port: 80
+wechat:
+  #  微信公众平台的appID
+  appId: 'wx77959230d5ce8929'
+  #  微信公众平台的appSecret
+  secret: 'b20147d61238aee8bd8eb0f304de6420'
+  #  关注公众号的用户ID（要推送的人的用户ID,在微信公众平台里可以查看到,现在支持推送多个人）
+  userId:
+    - 'oTrFj6pLEwl0bax2nJOZRaeHERlM'
+    - 'oTrFj6rf2_-O0kmgFskPcPirekgM'
+  #  模板ID
+  templateId: 'yoib_tv-ck3KxZPYt2N1oMs89_FaQ9iqzsO5yn2Le4w'
+  #  百度地图开放平台的城市ID
+  district_id: '430321'
+  #  百度地图开放平台的应用AK
+  ak: 'GAbwGsUkWYFTpzF0cdvf2thhrxZ1I31V'
+  #  纪念日：注意格式yyyy-MM-dd
+  loveDate: '2017-12-06'
+  #  生日：注意格式yyyy-MM-dd （无论是计算阳历生日还是农历生日,一律填阳历出生年月日）
+  birthday: '1999-11-26'
+  #  天行数据apiKey
+  rainbowKey: '5995930410869adf1f14e8a0e1629cf7'
+    #    是否按农历计算生日 true:是 false:否
+  useLunar: true
